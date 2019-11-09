@@ -1,0 +1,13 @@
+#!/bin/bash
+
+let i=0
+
+while true
+do
+  echo $i > /dev/null
+  if [ $i -gt 100 ]
+  then
+    let i=0
+  fi
+  let i=i+1  
+done
