@@ -1,13 +1,15 @@
 #!/bin/bash
 
-let i=0
+# This script counts to 100 silently.
+
+declare -i counter=0
 
 while true
 do
-  echo $i > /dev/null
-  if [ $i -gt 100 ]
+  echo $counter > /dev/null
+  if [ $counter -gt 100 ]
   then
-    let i=0
+    counter=0
   fi
-  let i=i+1  
+    counter=counter+1
 done

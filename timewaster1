@@ -1,13 +1,15 @@
 #!/bin/bash
 
-let i=0
+# This script counts to 100 and repeats forever.
+
+declare -i i=0
 
 while true
 do
   echo $i
   if [ $i -gt 100 ]
   then
-    let i=0
+    i=0
   fi
-  let i=i+1  
+  i=i+1  
 done
