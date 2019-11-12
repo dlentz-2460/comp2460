@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "please enter the count:"
+read COUNT
+
+if [ $COUNT -eq 100 ]
+then
+  echo "Count is 100"
+elif [ $COUNT -gt 100 ]
+then
+  echo "Count is greater than 100"
+else
+  echo "Count is less than 100"
+fi
+
+exit 0
