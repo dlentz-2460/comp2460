@@ -1,0 +1,9 @@
+#! /bin/bash
+# This script reads the user's name and exhoes it back to
+# standard output
+
+echo "What is your name?"
+read NAME
+echo "Hello "$NAME"! Nice to meet you!"
+
+exit 0
