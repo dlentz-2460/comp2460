@@ -1,0 +1,2 @@
+This directory contains example bash scripts. Make sure to make the script executable to run,
+and remember to use ./<scriptname> or bash won't find it!
