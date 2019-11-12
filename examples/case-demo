@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "What type of rental do you want?"
+read RENTAL
+
+# use case statement to make decision for rental
+case $RENTAL in
+   "car") echo "For $RENTAL rental is 10 per day.";;
+   "van") echo "For $RENTAL rental is 20 per day.";;
+   "jeep") echo "For $RENTAL rental is 15 per day.";;
+   "bicycle") echo "For $RENTAL rental 5 per day";;
+   *) echo "Sorry, I can not get a $RENTAL rental for you!";;
+esac
+
+exit 0
